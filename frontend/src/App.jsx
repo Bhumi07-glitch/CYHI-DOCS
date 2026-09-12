@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Navbar from './components/navbar'
 
 
 
@@ -6,9 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='min-h-screen bg-black text-amber-50'>
-        hello
-      </div>
+      <Navbar></Navbar>
     </>
   )
 }
